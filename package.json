@@ -1,0 +1,22 @@
+{
+  "name": "udemy-api-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Rafael Tedesco",
+  "license": "ISC",
+  "dependencies": {
+    "danfojs-node": "^1.0.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}
