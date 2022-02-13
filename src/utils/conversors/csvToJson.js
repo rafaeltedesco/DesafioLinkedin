@@ -1,20 +1,17 @@
-import * as dfd from 'danfojs-node'
-
-export class CSVToJSONConversor {
+export class DfToJSONConversor {
 
   constructor() {
-    this._uri = uri
+    this._df = null
   }
 
-  readCSV(uri) {
+  convertDfToJson(df) {
     return new Promise((resolve, reject)=> {
-      dfd.readCSV(uri)
-        .then(df => {
-          resolve(df)
-        })
-        .catch(err => {
-          reject(err)
-        })
+      try {
+        resolve(df.toJSON())
+      }
+      catch(err) {
+        reject(new Error(err.message))
+      }
     })
   }
 }
