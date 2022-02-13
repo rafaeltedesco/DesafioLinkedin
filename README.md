@@ -12,7 +12,7 @@
 
 3 - Construir uma API para disponibilizar os dados ✓
 
-> Api construída usando express.js. Dados inicialmente disponibilizados via Stream diretamente do arquivo .json convertido.
+> Api construída usando express.js.
 
 4 - Fazer o [deploy da aplicação](https://udemy-api-express.herokuapp.com/) ✓
 
