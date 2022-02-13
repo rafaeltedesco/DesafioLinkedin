@@ -1,16 +1,14 @@
-import pathsConfig from '../../config/pathsConfig.js'
-
 import * as dfd from 'danfojs-node'
 
 export class CSVToJSONConversor {
 
-  constructor(uri = null) {
-    this._uri = uri || pathsConfig.exampleUdemyCSVFile
+  constructor() {
+    this._uri = uri
   }
 
   readCSV(uri) {
     return new Promise((resolve, reject)=> {
-      dfd.readCSV(uri || this._uri)
+      dfd.readCSV(uri)
         .then(df => {
           resolve(df)
         })
@@ -19,7 +17,6 @@ export class CSVToJSONConversor {
         })
     })
   }
-
 }
 
 
