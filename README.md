@@ -1,12 +1,12 @@
 # Desafio Projeto Full Stack - Linkedin
 
-### o Gustavo Lins (https://www.linkedin.com/in/gustavo-lins/) me desafiou e eu lancei o desafio de volta!
+### o [Gustavo Lins](https://www.linkedin.com/in/gustavo-lins/) me desafiou e eu lancei o desafio de volta!
 
 #### Meu desafio é:
 
-1 - Obter uma base de dados do Kaggle (https://www.kaggle.com/) em .csv
+1 - Obter uma base de dados do [Kaggle](https://www.kaggle.com/) em .csv
 
-> Escolhi a base udemy_courses (https://www.kaggle.com/andrewmvd/udemy-courses)
+> Escolhi a base [udemy_courses](https://www.kaggle.com/andrewmvd/udemy-courses)
 
 2 - Transformar os dados .CSV em .JSON ✓
 
@@ -14,9 +14,7 @@
 
 > Api construída usando express.js. Dados inicialmente disponibilizados via Stream diretamente do arquivo .json convertido.
 
-4 - Fazer o deploy da aplicação ✓
-
-> (https://udemy-api-express.herokuapp.com/)
+4 - Fazer o [deploy da aplicação](https://udemy-api-express.herokuapp.com/) ✓
 
 5 - Melhorar a Api adicionando paginação
 
