@@ -1,23 +1,19 @@
 import expressConfig from './src/config/expressConfig.js'
 import express from 'express'
-import { readCSVFile } from './src/services/csvReader.service.js'
-import pathsConfig from './src/config/pathsConfig.js'
-import { convertDfToJson } from './src/services/dfToJson.service.js'
+import { router } from './src/routes/router.routes.js'
+import { loadDb } from './src/config/dbConfig.js'
 
 const app = express()
 
-app.get('/', async (req, res)=> {
+app.use(router)
+
+app.listen(expressConfig.PORT, async ()=> {
   try {
-    const df = await readCSVFile(pathsConfig.exampleUdemyCSVFile)
-    const jsonData = await convertDfToJson(df)
-    res.send(jsonData)
+    await loadDb()
+    console.log(`Server up and running on port ${expressConfig.PORT}`)
   }
   catch(err) {
-    res.send({message: err.message})
+    throw new Error('Cannot initialize DB')
   }
-  
-})
 
-app.listen(expressConfig.PORT, ()=> {
-  console.log(`Server up and running on port ${expressConfig.PORT}`)
 })
