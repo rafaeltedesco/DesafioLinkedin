@@ -2,7 +2,7 @@
 
 ### Desafio que nasceu de uma conversa com o [Gustavo Lins](https://www.linkedin.com/in/gustavo-lins/)
 
-#### Meu desafio é:
+#### Meu desafio:
 
 1 - Obter uma base de dados do [Kaggle](https://www.kaggle.com/) em .csv
 
