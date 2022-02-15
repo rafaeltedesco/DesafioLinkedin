@@ -24,6 +24,10 @@
 
 > Integrado ao banco PSQL fornecido pelo Heroku
 
+7 - Realizar a carga dos dados para o banco PSQL
+
+> Desenvolvido um Script em Python para realizar a carga. [Repositório](https://github.com/rafaeltedesco/PythonHerokuDataManager)
+
 7 - Construir uma frontend que consuma essa Api e apresente os dados em Cards.
 
 O Desafio do Gustavo será realizar um web scraping nesse front, fazer um processo ETL e apresentar uma análise dos dados. Em breve, atualizo com novidades.
