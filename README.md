@@ -18,7 +18,11 @@
 
 5 - Melhorar a Api adicionando paginação ✓
 
+> Paginação adicionada no formato: https://udemy-api-express.herokuapp.com/?page=1&limit=50
+
 6 - Integrar com banco de dados PostgreSQL ✓
+
+> Integrado ao banco PSQL fornecido pelo Heroku
 
 7 - Construir uma frontend que consuma essa Api e apresente os dados em Cards.
 
