@@ -2,7 +2,7 @@ import 'dotenv/config'
 import { PSQL } from "../repository/psql.js"
 import { SQLService } from "../services/sql.service.js"
 
-const CONNECTION_STRING = process.env.CONNECTION_STRING
+const CONNECTION_STRING = process.env.DATABASE_URL
 const TABLENAME = process.env.TABLENAME
 
 export const sqlService = new SQLService(new PSQL(CONNECTION_STRING, TABLENAME))
