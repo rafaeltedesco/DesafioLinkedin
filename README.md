@@ -1,6 +1,6 @@
 # Desafio Projeto Full Stack - Linkedin
 
-### O [Gustavo Lins](https://www.linkedin.com/in/gustavo-lins/) me desafiou e eu lancei o desafio de volta!
+### Desafio que nasceu de uma conversa com o [Gustavo Lins](https://www.linkedin.com/in/gustavo-lins/)
 
 #### Meu desafio é:
 
