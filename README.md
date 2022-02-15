@@ -16,8 +16,10 @@
 
 4 - Fazer o [deploy da aplicação](https://udemy-api-express.herokuapp.com/) ✓
 
-5 - Melhorar a Api adicionando paginação
+5 - Melhorar a Api adicionando paginação ✓
 
-6 - Construir uma frontend que consuma essa Api e apresente os dados em Cards.
+6 - Integrar com banco de dados PostgreSQL ✓
+
+7 - Construir uma frontend que consuma essa Api e apresente os dados em Cards.
 
 O Desafio do Gustavo será realizar um web scraping nesse front, fazer um processo ETL e apresentar uma análise dos dados. Em breve, atualizo com novidades.

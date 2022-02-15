@@ -7,7 +7,7 @@ export class SQLService {
 
   async connect() {
     await this._sql.connect()
-    console.log('connected')
+    console.log('DB connected')
   }
 
   async select(page=1, limit=100, orderBy='course_id') {
