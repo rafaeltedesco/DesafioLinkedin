@@ -6,5 +6,7 @@ const router = express.Router()
 
 router.route('/')
   .get(coursesController.getCourses)
+router.route('/search')
+  .get(coursesController.getCoursesByQuery)
 
 export { router }

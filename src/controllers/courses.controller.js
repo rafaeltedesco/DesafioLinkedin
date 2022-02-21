@@ -11,7 +11,25 @@ const getCourses = async(req, res)=> {
     } 
   }
 
+const getCoursesByQuery = async(req, res)=> {
+  try {
+    const {courseName, orderBy} = req.query
+    
+    const { rowCount, rows } = await sqlService.queryTxt({
+      searchParam: courseName,
+      searchColumn: 'course_title'
+  })
+
+    res.send({rowCount, rows})
+  }
+  catch(err) {
+    res.send({message: err.message})
+  }
+
+}
+
 
 export default {
-  getCourses
+  getCourses,
+  getCoursesByQuery
 }
